@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#74DDDD"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_mo_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/design"
+        android:hint="Enter mobile number"
+        android:textSize="10dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/et_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/design"
+        android:hint="Enter you text"
+        android:textSize="10dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="Call"
+            android:padding="10dp"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btn_sms"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="SMS"
+            android:padding="10dp"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+    
+</LinearLayout>
